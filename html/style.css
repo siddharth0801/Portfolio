@@ -1,0 +1,183 @@
+/* Add a black background color to the top navigation */
+html{
+  background-color: #b1bcec;
+  font-family: 'Kalam', cursive;
+
+}
+
+h1 {
+  font-size: 50px;
+}
+.topnav {
+    
+    background-color: cornsilk;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    
+    float: left;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    
+    background-color: black;
+    color: cornsilk;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: cornsilk;
+    color:black;
+  }
+  
+ .topbody {
+   font-size: x-large;
+   
+  padding: 245px 0 100px 300px;
+  background-image: url("../pics/hire-android-developer.jpg");
+  
+  
+  background-repeat: no-repeat;
+  height: 200px;
+  background-position: 900px 150px ;
+ }
+ .topbody a {
+   font-size: x-large;
+  background-color: white;
+  color: brown;
+  border: 3px solid gold;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+ }
+.topbody a:hover {
+  background-color: black;
+  color: white;
+}
+#about {
+  
+  border-style: outset;
+  border-width: 5px 0px 5px 20px;
+  border-color: gold; /* red */
+  color: black;
+  font-size: x-large;
+  padding: 100px 100px 200px 100px;
+  background-color: antiquewhite;
+  /* margin: 25px 0px; */
+  
+  
+}
+#about h1 {
+  text-shadow: 2px 2px 5px red;
+}
+
+#education {
+  
+  color: black;
+  font-size: 20px;
+  padding: 100px 100px 300px 100px;
+  
+  
+  margin: auto;
+  
+}
+#education h1 {
+  
+  text-shadow: 2px 2px 5px red;
+}
+.edu1 {
+  background-color: white;
+  width: 500px;
+  border: 1px solid white;
+  padding: 20px;
+  
+  margin: 10px;
+  margin-left: 500px;
+  margin-bottom: 25px;
+  border-radius: 20px;
+  
+}
+.edu2 {
+  background-color: white;
+  width: 500px;
+  border: 1px solid grey;
+  padding: 20px;
+  margin: 10px;
+  margin-left: 500px;
+  
+  border-radius: 20px;
+}
+.edu1:hover {
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.edu2:hover {
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.fas {
+  
+    color: white;
+    background-color: black;
+}
+.fa-school {
+  position: relative;
+  top: 100px;
+  color: white;
+  background-color: black;
+}
+.vertical {
+  
+  border-left: 3px solid black;
+  
+  height: 480px;
+}
+#connect {
+  font-size: x-large;
+  padding: 30px;
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+#connect h1 {
+  text-shadow: 2px 2px 5px red;
+}
+.fa {
+  font-size: 50px;
+  background-color: black;
+  color: lightskyblue;
+  padding-left: 50px;
+  padding-bottom: 35px;
+}
+.fa:hover {
+  
+    color: white;
+    background-color: transparent;
+    
+  
+}
+.email a {
+  font-size: 20px;
+ background-color: white;
+ color: red;
+ border: 3px solid gold;
+ padding: 10px 20px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+}
+.email a:hover {
+ background-color: darkgray;
+ color: black;
+}
