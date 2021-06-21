@@ -1,7 +1,8 @@
 # Portfolio
-Portfolio Website made using HTML &amp; CSS .
+A Basic Portfolio Website made using HTML &amp; CSS .
+Note: Made for Desktop.
 
 Link: https://siddharth0801.github.io/Portfolio/
 
-Note: Made for Desktop.
+
 
